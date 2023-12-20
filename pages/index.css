@@ -36,11 +36,14 @@ nav {
   list-style: none;
   column-gap: 20px;
   padding: 0;
+  text-decoration: none;
+  color: black;
 }
 
 .header__title {
   margin-top: 213px;
-  max-width: 729px;
+  margin-bottom: 0px;
+  max-width: 600px;
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -48,11 +51,19 @@ nav {
   line-height: 72px;
   color: #2f80ed;
 }
+.header__title-color {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  color: black;
+}
 
 .header__description {
   font-size: normal;
   line-height: 30px;
-  margin-top: auto;
   max-width: 683px;
   font-weight: normal;
   font-family: "Noto Serif";
@@ -63,8 +74,8 @@ nav {
   position: absolute;
   max-width: 568px;
   max-height: 646px;
-  top: 135px;
-  right: 20px;
+  top: 124px;
+  right: 5px;
 }
 
 .header__footer {
@@ -73,9 +84,23 @@ nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383
+  color: #838383;
   list-style: none;
+  left: 80px;
+  bottom: 40px;
+  margin-top: auto;
+}
 
+.header__direction {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  display: flex;
+  margin-bottom: 40px;
+  margin-right: 80px;
 }
 
 .recipes {
@@ -84,7 +109,6 @@ nav {
   background-color: #0a2750;
   color: white;
   padding: 40px 0 0 0;
-
 }
 
 .recipes__title {
