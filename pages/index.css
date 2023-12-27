@@ -62,7 +62,7 @@ nav {
 }
 
 .header__description {
-  font-size: normal;
+  font-size: 20px;
   line-height: 30px;
   max-width: 683px;
   font-weight: normal;
@@ -86,9 +86,13 @@ nav {
   line-height: 20px;
   color: #838383;
   list-style: none;
-  left: 80px;
-  bottom: 40px;
-  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__paragraph {
+  margin: 0;
 }
 
 .header__direction {
